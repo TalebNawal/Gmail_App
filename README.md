@@ -1,6 +1,6 @@
 # Gmail_App : Application à Microservices d'E-mailing
 
-Ce projet consiste en la conception et la réalisation d'une application à microservices visant à moderniser et digitaliser les processus d'e-mailing au sein de l'entreprise. L'application utilise divers outils et technologies pour atteindre ses objectifs, notamment SpringBoot, Angular, Kafka et MongoDB.
+Ce projet consiste en la réalisation d'une application à microservices visant digitaliser les processus d'e-mailing au sein de l'entreprise. L'application utilise divers outils et technologies pour atteindre ses objectifs, notamment SpringBoot, Angular, Kafka et MongoDB.
 <p>
 <img width="100" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/3b334351-b4ff-4f73-a998-a02b9dd282e7">
 <img width="100" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/eb68cacc-26d4-448e-878c-b14898c74cbe">
