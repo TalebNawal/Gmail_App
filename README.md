@@ -83,11 +83,12 @@ Pour explorer et utiliser ce projet :
 ```.\bin\windows\kafka-console-consumer.bat --topic topic-example --from-beginning --bootstrap-server localhost:9092```
 
 - **Exécuter les deux microservices ensemble, le frontEnd et MongoDb** :
+  
   - **Le fontEnd** :
 
- ```npm install ```
- 
-  ```ng serve```
+      ```npm install ```
+     
+      ```ng serve```
   
   - **Le backEnd** : On démarre UserServiceApplication et EmailServiceApplication
 
