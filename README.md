@@ -3,13 +3,6 @@
 Ce projet consiste en la conception et la réalisation d'une application à microservices visant à moderniser et digitaliser les processus d'e-mailing au sein de l'entreprise. L'application utilise divers outils et technologies pour atteindre ses objectifs, notamment SpringBoot, Angular, Kafka et MongoDB.
 <p>
 <img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/3b334351-b4ff-4f73-a998-a02b9dd282e7">
-<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/69d3ce15-71a1-4ada-af40-c5333cb68285">
-<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/7e714457-a748-479d-adbe-a85518f2de75">
-<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/d0d2461f-9a41-46e2-9227-e0100842eca8">
-<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/a2d29e3a-732e-4567-bc91-13f38142a21c">
-<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/63e745f6-79bc-4440-ab28-d9cd8739e23b">
-<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/a6d21ceb-3112-481b-b58e-08edf4b3326e">
-<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/6c506dad-c299-404c-80d3-e653947e769b">
 <img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/eb68cacc-26d4-448e-878c-b14898c74cbe">
 <img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/54f02651-8e21-4d78-ad81-2ed3aaf42708">
 <img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/213e4305-4c6e-48e7-803e-9e038ef4e900">
