@@ -84,7 +84,9 @@ Pour explorer et utiliser ce projet :
 
 - **Exécuter les deux microservices ensemble, le frontEnd et MongoDb** :
   - **Le fontEnd** :
-    
+
+ ```npm install ```
+ 
   ```ng serve```
   
   - **Le backEnd** : On démarre UserServiceApplication et EmailServiceApplication
