@@ -1,4 +1,4 @@
-# Gmail_App : Application à Microservices pour la Digitalisation des Processus d'E-mailing
+# Gmail_App : Application à Microservices d'E-mailing
 
 Ce projet consiste en la conception et la réalisation d'une application à microservices visant à moderniser et digitaliser les processus d'e-mailing au sein de l'entreprise. L'application utilise divers outils et technologies pour atteindre ses objectifs, notamment SpringBoot, Angular, Kafka et MongoDB.
 <p>
