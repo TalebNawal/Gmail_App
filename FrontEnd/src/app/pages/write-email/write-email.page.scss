@@ -1,0 +1,18 @@
+ion-toolbar {
+    --background: var(--ion-color-primary);
+    color: white;
+  }
+  
+  ion-content {
+    --background: #f4f4f4;
+  }
+  
+  ion-item {
+    --ion-background-color: white;
+    --ion-border-color: transparent;
+  
+    ion-label {
+      color: var(--ion-color-primary);
+    }
+  }
+  

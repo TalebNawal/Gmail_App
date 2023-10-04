@@ -1,0 +1,60 @@
+<ion-menu contentId="main-content" type="overlay">
+	<ion-content>		
+	  <ion-list id="inbox-list">
+		<ion-list-header>Gmail</ion-list-header>
+		<ion-note></ion-note>
+
+		<ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
+		  <ion-item routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" routerLinkActive="selected">
+			<ion-icon aria-hidden="true" slot="start" [ios]="p.icon + '-outline'" [md]="p.icon + '-sharp'"></ion-icon>
+			<ion-label>{{ p.title }}</ion-label>
+		  </ion-item>
+		</ion-menu-toggle>
+	  </ion-list>
+	  <br>
+	  <ion-item class="ion-margin-bottom" lines="none">
+		<ion-icon name="settings" slot="start"></ion-icon>
+		Settings 
+	  </ion-item>
+	  <ion-item class="ion-margin-bottom" lines="none">
+		<ion-icon name="help" slot="start"></ion-icon>
+		Help And Comments 
+	  </ion-item>
+	  
+	</ion-content>
+  </ion-menu>
+<ion-content scrollEvents="true" [appHideHeader]="search"  >
+	<!-- Search bar and user avatar -->
+	<div class="search-overlay ion-align-items-center" slot="fixed" #search>
+	  <ion-row>
+		<ion-col size="2">
+		  <ion-menu-button color="dark"></ion-menu-button>
+		</ion-col>
+		<ion-col size="8">
+		  <ion-input placeholder="Search in emails"></ion-input>
+		</ion-col>
+		<ion-col size="2">
+		  <ion-avatar tappable (click)="openAccount($event)">
+			<img src="/assets/avatar/profil.png" />
+		  </ion-avatar>
+		</ion-col>
+	  </ion-row>
+	</div>
+  
+	<ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+	  <ion-refresher-content refreshingSpinner="crescent"></ion-refresher-content>
+	</ion-refresher>
+  
+	<!-- Email list grouped by date -->
+	<ion-list>
+		<ion-list-header class="ion-margin-bottom">Outbox</ion-list-header>
+	    <app-header *ngFor="let m of emails" [email]="m"></app-header>
+    </ion-list>
+	<!-- Floating compose button -->
+	<ion-fab vertical="bottom" horizontal="end" slot="fixed">
+	  <ion-fab-button color="light" #fab (click)="openWrite()">
+		<ion-icon name="pencil-outline" color="primary"></ion-icon>
+	  </ion-fab-button>
+	</ion-fab>
+  </ion-content>
+  

@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="mail"></ion-back-button>
+    </ion-buttons>
+    <ion-title>New Mail</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="sendMail(email)">
+        <ion-icon slot="icon-only" name="send"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label position="stacked">From</ion-label>
+      <ion-input disabled="true" value="saratlbazer1234@gmail.com"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">To</ion-label>
+      <ion-input [(ngModel)]="email.to"></ion-input>
+    </ion-item>
+    <!-- CC Field -->
+    <ion-item>
+      <ion-label position="stacked">CC</ion-label>
+      <ion-list>
+        <ion-item *ngFor="let ccEmail of email.cc; let i = index">
+          <ion-input [(ngModel)]="email.cc[i]" placeholder="CC email"></ion-input>
+          <ion-button (click)="removeCcEmail(i)" size="small">
+            <ion-icon name="close-circle-outline"></ion-icon>
+          </ion-button>
+        </ion-item>
+      </ion-list>
+      <ion-button (click)="addCcEmail()" size="small">
+        <ion-icon name="add-outline"></ion-icon>
+        Add CC
+      </ion-button>
+    </ion-item>
+
+    <!-- Other fields -->
+
+    <ion-item>
+      <ion-label position="stacked">Subject</ion-label>
+      <ion-input [(ngModel)]="email.subject"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">Message</ion-label>
+      <!-- Ajoutez l'attribut "aria-label" à l'élément <ion-textarea> -->
+      <ion-textarea [(ngModel)]="email.body" rows="6" aria-label="Message"></ion-textarea>
+
+    </ion-item>
+  </ion-list>
+</ion-content>

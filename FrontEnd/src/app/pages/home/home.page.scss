@@ -1,0 +1,61 @@
+.register-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .register-container h2 {
+    text-align: center;
+  }
+  
+  .register-container form {
+    margin-top: 20px;
+  }
+  
+  .register-container .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .register-container label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .register-container input[type="text"],
+  .register-container input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .register-container button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .register-container button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .app-logo {
+    height: 60px;
+  }
+  
+  .app-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .app-title {
+    font-size: 1.5em;
+  }

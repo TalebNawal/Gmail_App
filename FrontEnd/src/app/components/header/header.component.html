@@ -1,0 +1,31 @@
+<div class="container mt-4">
+	<div class="row">
+	  <div class="col d-flex justify-content-between align-items-center">
+		<ion-icon name="trash-outline" color="light"></ion-icon>
+		<ion-icon name="archive-outline" color="light"></ion-icon>
+	  </div>
+	</div>
+  </div>
+  
+  <div class="container mt-4" (click)="openDetails(m.id)">
+	<div class="row">
+	  <div class="col">
+		<div  class="pb-3 border-bottom">
+		  <div class="row align-items-center">
+			<div class="col-2">
+			  <div class="email-circle" [style.background]="m.color">{{ m.to | slice: 0:1 }}</div>
+			</div>
+			<div class="col-8">
+			  <h5 class="font-weight-bold text-dark">{{ m.to.split('@')[0] }}</h5>
+			  <p class="excerpt">{{ m.body.length > 50 ? (m.body | slice: 0:50) + '...' : m.body }}</p>
+			</div>
+			<div class="col-2 text-right">
+			  <p class="date">{{ m.date | date:'dd. MMM' }}</p>
+			  <ion-icon [name]="m.star ? 'star' : 'star-outline'" [color]="m.star ? 'warning' : 'medium'"></ion-icon>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
+  
