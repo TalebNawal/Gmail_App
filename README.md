@@ -2,16 +2,16 @@
 
 Ce projet consiste en la conception et la réalisation d'une application à microservices visant à moderniser et digitaliser les processus d'e-mailing au sein de l'entreprise. L'application utilise divers outils et technologies pour atteindre ses objectifs, notamment SpringBoot, Angular, Kafka et MongoDB.
 <p>
-<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/3b334351-b4ff-4f73-a998-a02b9dd282e7">
-<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/eb68cacc-26d4-448e-878c-b14898c74cbe">
+<img width="100" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/3b334351-b4ff-4f73-a998-a02b9dd282e7">
+<img width="100" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/eb68cacc-26d4-448e-878c-b14898c74cbe">
 
-<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/213e4305-4c6e-48e7-803e-9e038ef4e900">
-<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/241d5859-13f2-4a7d-9eb5-a736adc8c1f1">
-<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/11dce71b-245f-47ae-bbcb-61f8cd5f7136">
-<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/2e04e46b-152a-4b7d-b1f6-a6babaf7ffc5">
-<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/1abf839d-a869-42ba-9720-d856d0946d60">
-<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/aafac9f1-2589-47e8-a3e5-e4ad8a655c17">
-<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/2ea76169-3d4a-43ca-8ec3-3fe961dec6d0">
+<img width="100" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/213e4305-4c6e-48e7-803e-9e038ef4e900">
+<img width="100" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/241d5859-13f2-4a7d-9eb5-a736adc8c1f1">
+<img width="100" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/11dce71b-245f-47ae-bbcb-61f8cd5f7136">
+<img width="100" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/2e04e46b-152a-4b7d-b1f6-a6babaf7ffc5">
+<img width="100" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/1abf839d-a869-42ba-9720-d856d0946d60">
+<img width="100" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/aafac9f1-2589-47e8-a3e5-e4ad8a655c17">
+<img width="100" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/2ea76169-3d4a-43ca-8ec3-3fe961dec6d0">
 </p>
 
 
