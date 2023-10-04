@@ -1,6 +1,33 @@
 # Gmail_App : Application à Microservices pour la Digitalisation des Processus d'E-mailing
 
 Ce projet consiste en la conception et la réalisation d'une application à microservices visant à moderniser et digitaliser les processus d'e-mailing au sein de l'entreprise. L'application utilise divers outils et technologies pour atteindre ses objectifs, notamment SpringBoot, Angular, Kafka et MongoDB.
+<p>
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/3b334351-b4ff-4f73-a998-a02b9dd282e7">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/69d3ce15-71a1-4ada-af40-c5333cb68285">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/7e714457-a748-479d-adbe-a85518f2de75">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/d0d2461f-9a41-46e2-9227-e0100842eca8">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/a2d29e3a-732e-4567-bc91-13f38142a21c">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/63e745f6-79bc-4440-ab28-d9cd8739e23b">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/a6d21ceb-3112-481b-b58e-08edf4b3326e">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/6c506dad-c299-404c-80d3-e653947e769b">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/eb68cacc-26d4-448e-878c-b14898c74cbe">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/54f02651-8e21-4d78-ad81-2ed3aaf42708">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/213e4305-4c6e-48e7-803e-9e038ef4e900">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/9109d7df-d428-4ebc-9c08-ff5895bf7a0d">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/45f8bace-0f49-4c76-9944-55755d795279">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/241d5859-13f2-4a7d-9eb5-a736adc8c1f1">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/11dce71b-245f-47ae-bbcb-61f8cd5f7136">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/2e04e46b-152a-4b7d-b1f6-a6babaf7ffc5">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/1abf839d-a869-42ba-9720-d856d0946d60">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/60ccb14a-0cd1-4b11-8352-ab072ad29460">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/35931f43-d4c8-4dee-936d-d5af87202e81">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/81f15003-45ee-49fa-9ddb-abbb4e63459b">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/aafac9f1-2589-47e8-a3e5-e4ad8a655c17">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/1ab2169c-7fd7-4b26-b932-bb881c5dc10e">
+<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/2ea76169-3d4a-43ca-8ec3-3fe961dec6d0">
+</p>
+
+
 
 ## Objectifs du Projet
 
@@ -28,16 +55,17 @@ L'objectif principal de ce projet était de repenser et de simplifier la gestion
 
 Pour explorer et utiliser ce projet :
 
-- Clonage du Projet : Clonez ce dépôt GitHub sur votre machine en utilisant la commande Git suivante :
+- **Clonage du Projet** : Clonez ce dépôt GitHub sur votre machine en utilisant la commande Git suivante :
 
 ```git clone https://github.com/votre-nom/utilisateur/application-microservices-emailing.git```
 
-- Configuration de l'Environnement : Assurez-vous d'avoir les prérequis nécessaires (Java, Node.js, kafka, etc.) pour exécuter les composants de l'application.
-- Utilisation de Kafka :
+- **Configuration de l'Environnement** : Assurez-vous d'avoir les prérequis nécessaires (Java, Node.js, kafka, etc.) pour exécuter les composants de l'application.
+- **Utilisation de Kafka** :
 
   - STEP 1: DOWNLOAD AND INSTALL KAFKA
 ```https://dlcdn.apache.org/kafka/3.2.0/kafka_2.13-3.2.0.tgz```
- 
+ Dans le dossier d'installation de Kafka lancer un terminal pour exécuter les commandes suivantes.
+
   - STEP 2: START THE KAFKA ENVIRONMENT
 
     - Start the Zookeeper service
@@ -45,24 +73,27 @@ Pour explorer et utiliser ce projet :
  
     - Start the Kafka broker service
 ```.\bin\windows\kafka-server-start.bat .\config\server.properties```
-
  
   - STEP 3: CREATE A TOPIC TO STORE EVENTS
-
 ```.\bin\windows\kafka-topics.bat --create --topic topic-example --bootstrap-server localhost:9092```
 
   - STEP 4: WRITE SOME EVENTS INTO THE TOPIC
-
 ```.\bin\windows\kafka-console-producer.bat --topic topic-example --bootstrap-server localhost:9092```
 ```>hello world```
 ```>hi```
 
   - STEP 5: READ THE EVENTS
-
 ```.\bin\windows\kafka-console-consumer.bat --topic topic-example --bootstrap-server localhost:9092```
 
 ```.\bin\windows\kafka-console-consumer.bat --topic topic-example --from-beginning --bootstrap-server localhost:9092```
 
+- **Exécuter les deux microservices ensemble, le frontEnd et MongoDb** :
+  - **Le fontEnd** :
+  ```ng serve```
+  - **Le backEnd** : On démarre UserServiceApplication et EmailServiceApplication
+
+  - **La base de données** : On lance mongoDb
+  
 
  
 
