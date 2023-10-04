@@ -10,11 +10,7 @@ Ce projet consiste en la conception et la réalisation d'une application à micr
 <img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/11dce71b-245f-47ae-bbcb-61f8cd5f7136">
 <img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/2e04e46b-152a-4b7d-b1f6-a6babaf7ffc5">
 <img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/1abf839d-a869-42ba-9720-d856d0946d60">
-<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/60ccb14a-0cd1-4b11-8352-ab072ad29460">
-<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/35931f43-d4c8-4dee-936d-d5af87202e81">
-<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/81f15003-45ee-49fa-9ddb-abbb4e63459b">
 <img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/aafac9f1-2589-47e8-a3e5-e4ad8a655c17">
-<img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/1ab2169c-7fd7-4b26-b932-bb881c5dc10e">
 <img width="200" src="https://github.com/TalebNawal/Gmail_App/assets/101468806/2ea76169-3d4a-43ca-8ec3-3fe961dec6d0">
 </p>
 
