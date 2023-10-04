@@ -63,33 +63,43 @@ Pour explorer et utiliser ce projet :
 - **Utilisation de Kafka** :
 
   - STEP 1: DOWNLOAD AND INSTALL KAFKA
+
 ```https://dlcdn.apache.org/kafka/3.2.0/kafka_2.13-3.2.0.tgz```
+ 
  Dans le dossier d'installation de Kafka lancer un terminal pour exécuter les commandes suivantes.
 
   - STEP 2: START THE KAFKA ENVIRONMENT
 
     - Start the Zookeeper service
-```.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties```
- 
+
+```.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties``` 
     - Start the Kafka broker service
+
 ```.\bin\windows\kafka-server-start.bat .\config\server.properties```
  
   - STEP 3: CREATE A TOPIC TO STORE EVENTS
+
 ```.\bin\windows\kafka-topics.bat --create --topic topic-example --bootstrap-server localhost:9092```
 
   - STEP 4: WRITE SOME EVENTS INTO THE TOPIC
+
 ```.\bin\windows\kafka-console-producer.bat --topic topic-example --bootstrap-server localhost:9092```
+
 ```>hello world```
+
 ```>hi```
 
   - STEP 5: READ THE EVENTS
+
 ```.\bin\windows\kafka-console-consumer.bat --topic topic-example --bootstrap-server localhost:9092```
 
 ```.\bin\windows\kafka-console-consumer.bat --topic topic-example --from-beginning --bootstrap-server localhost:9092```
 
 - **Exécuter les deux microservices ensemble, le frontEnd et MongoDb** :
   - **Le fontEnd** :
+    
   ```ng serve```
+  
   - **Le backEnd** : On démarre UserServiceApplication et EmailServiceApplication
 
   - **La base de données** : On lance mongoDb
